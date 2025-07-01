@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ddd;
+    color: #333;
+}
+
+.section-title {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.category-title {
+    color: #004085;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #004085;
+    padding-bottom: 5px;
+}
+
+/* Reusing item styles for courses, universities, and scholarships */
+.course-item, .university-item, .scholarship-item {
+    background-color: #e9e9e9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex; /* Use flexbox for icon and content layout */
+    align-items: flex-start; /* Align items to the top */
+}
+
+/* Style for the generic icon */
+.item-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-right: 15px; /* Space between icon and text */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    object-fit: contain; /* Ensure the image fits without distortion */
+}
+
+/* Style for the content next to the icon */
+.item-content {
+    flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.course-item h3, .university-item h3, .scholarship-item h3 {
+    margin-top: 0;
+    color: #004085;
+}
+
+.course-item p, .university-item p, .scholarship-item p {
+    margin-bottom: 5px;
+}
+
+.university-item ul {
+    padding-left: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-container input[type="text"] {
+    width: calc(100% - 22px); /* Adjust based on padding/border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-container input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* New style for contact info */
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
