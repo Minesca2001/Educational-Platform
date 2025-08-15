@@ -28,7 +28,7 @@ export const data = {
             {
                 name: "Universidad Autónoma de Santo Domingo (UASD)",
                 location: "Santo Domingo y otras provincias",
-                logo: "logo_uasd.svg"
+                logo: "logo_uasd.svg",
                 website: "https://www.uasd.edu.do/",
                 subjects: [
                     "Medicina", "Derecho", "Ingeniería Civil", "Administración de Empresas", "Educación", "Ciencias Sociales", "Humanidades"
